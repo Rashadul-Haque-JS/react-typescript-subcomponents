@@ -27,7 +27,7 @@ const TableUserComponent = ({ props }: { props: User[] }) => {
               <Table.TD text={user.email} />
               <Table.TD text={user.language} />
               <Table.TD text={user.city} />
-              <Table.TD text={''} children={<AvatarStyle src={user.avatar} alt="user" />} />
+              <Table.TD children={<AvatarStyle src={user.avatar} alt="user" />} />
             </Table.TR>
           );
         })}

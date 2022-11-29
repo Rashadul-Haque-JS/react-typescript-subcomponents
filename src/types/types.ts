@@ -32,6 +32,6 @@ export type User = {
     text: string | number
   }
   export type TDTypes={
-    text: string | number;
+    text?: string | number;
     children?:JSX.Element
   }
