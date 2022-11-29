@@ -22,8 +22,8 @@ const TH= ({text}:THTypes)=>{
  return   <TRHStyle>{text}</TRHStyle>
 }
 
-const TD= ({text}:TDTypes)=>{
- return   <TRDStyle>{text}</TRDStyle>
+const TD= ({text,children}:TDTypes)=>{
+ return   <TRDStyle>{text}{children}</TRDStyle>
 }
 
 Table.Head = THead

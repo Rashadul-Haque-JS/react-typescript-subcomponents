@@ -1,6 +1,4 @@
-.App {
-  text-align: center;
-}
+
 
 ::-webkit-scrollbar {
   display: none;
@@ -16,14 +14,13 @@ body{
   height: 100vh;
   -ms-overflow-style: none; /* IE and Edge */
 scrollbar-width: none; /* Firefox */
+
 }
 
-
-
-body .headline {
-  font-size: 1.2rem;
-  color:#fff;
+.app{
+  background-color:#bfa6b0;
 }
+
 
 body .scroll{
   height: 500px;
@@ -33,4 +30,6 @@ body .scroll{
 .container {
   margin-bottom:3rem;
   opacity: 0.9;
+  height: 100vh;
+
 }

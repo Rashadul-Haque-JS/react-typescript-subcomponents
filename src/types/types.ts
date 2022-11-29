@@ -21,7 +21,7 @@ export type User = {
   }
 
   export type TableBodyTypes ={
-    children: JSX.Element[][] | JSX.Element
+    children: JSX.Element[][] | JSX.Element | JSX.Element[]
   }
 
   export type TRTypes ={
@@ -32,5 +32,6 @@ export type User = {
     text: string | number
   }
   export type TDTypes={
-    text: string | number
+    text: string | number;
+    children?:JSX.Element
   }

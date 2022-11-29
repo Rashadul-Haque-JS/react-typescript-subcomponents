@@ -35,12 +35,13 @@ export const TBodyStyle = styeled.tbody`
   padding:10px;
   text-align:center;
   font-size:1rem;
- 
+  
 
 `;
 
 export const TRStyle = styeled.tr`
-
+width:100%;
+vertical-align: middle;
 
 `;
 export const TRDStyle = styeled.td`
